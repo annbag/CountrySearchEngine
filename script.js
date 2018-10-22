@@ -25,7 +25,7 @@ function showCountriesList(resp) {
         .append($('<p>').text('Region: ' + item.region))
         .append($('<p>').text('Subregion: ' + item.subregion))
         .append($('<p>').text('Languages: ' + item.languages))
-        .append($('<p>').text('Area: ' + item.area))        
+        .append($('<p>').text('Area: ' + item.area + ' km²'))        
     	.appendTo(countriesList);
 	});
 }
